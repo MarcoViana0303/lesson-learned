@@ -13,3 +13,18 @@ body
 {
     height: 150px;
 }
+
+#tabela
+{
+    border: solid 5px;
+}
+
+#minha_foto
+{
+    margin-left: 280px;
+}
+
+#cabecalho
+{
+    padding-left: 200px;
+}

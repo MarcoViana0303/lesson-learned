@@ -32,3 +32,15 @@ body
 {
     padding-left: 200px;
 }
+
+.lado-direito
+{
+    float: right;
+    max-width: 50%;
+}
+
+.lado-esquerdo
+{
+    float: left;
+    max-width: 50%;
+}

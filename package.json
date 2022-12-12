@@ -4,6 +4,8 @@
   "description": "Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "test": "cypress run",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
     "cypress:open": "cypress open"
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/tryber/sd-03-week3-html-css-project-tests/issues"
   },
-  "homepage": "https://github.com/tryber/sd-03-week3-html-css-project-tests#readme",
+  "homepage": "https://username.github.io/app-toot-name",
   "devDependencies": {
     "cypress": "^5.0.0",
     "cypress-multi-reporters": "^1.2.3",
@@ -28,5 +30,8 @@
     "mochawesome-report-generator": "^4.1.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
